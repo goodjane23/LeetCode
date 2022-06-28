@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinNumberDeci-BinaryNum", "MinNumberDeci-BinaryNum\MinNumberDeci-BinaryNum.csproj", "{7F7237E2-E49A-4BEB-8763-FF699E56E370}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinDeletionsMakeCharacterFrequencies", "MinDeletionsMakeCharacterFrequencies\MinDeletionsMakeCharacterFrequencies.csproj", "{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7F7237E2-E49A-4BEB-8763-FF699E56E370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7237E2-E49A-4BEB-8763-FF699E56E370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7237E2-E49A-4BEB-8763-FF699E56E370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
