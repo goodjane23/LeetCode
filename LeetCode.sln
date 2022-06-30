@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinNumberDeci-BinaryNum", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinDeletionsMakeCharacterFrequencies", "MinDeletionsMakeCharacterFrequencies\MinDeletionsMakeCharacterFrequencies.csproj", "{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMovesEqualArrayElements", "MinMovesEqualArrayElements\MinMovesEqualArrayElements.csproj", "{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEF92C8A-FF0D-4C21-9BCD-F8CCF1E3D8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
