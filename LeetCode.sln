@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinDeletionsMakeCharacterFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMovesEqualArrayElements", "MinMovesEqualArrayElements\MinMovesEqualArrayElements.csproj", "{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumUnitsTruck", "MaximumUnitsTruck\MaximumUnitsTruck.csproj", "{39BE67EF-5AEA-4CAB-828B-D0E093B93F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxAreaofPieceofCake", "MaxAreaofPieceofCake\MaxAreaofPieceofCake.csproj", "{DAEA6CD6-F662-4E4D-BBCB-C1FEA2408387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A267ECC-6C89-45DF-9A9F-B5EF0E474E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BE67EF-5AEA-4CAB-828B-D0E093B93F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BE67EF-5AEA-4CAB-828B-D0E093B93F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BE67EF-5AEA-4CAB-828B-D0E093B93F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BE67EF-5AEA-4CAB-828B-D0E093B93F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEA6CD6-F662-4E4D-BBCB-C1FEA2408387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEA6CD6-F662-4E4D-BBCB-C1FEA2408387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEA6CD6-F662-4E4D-BBCB-C1FEA2408387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEA6CD6-F662-4E4D-BBCB-C1FEA2408387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
