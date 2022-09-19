@@ -5,59 +5,39 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-
-
 namespace InterleavingString
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IsInterleave("aabcc", "dbbca", "aadbbcbcac"));
+            Console.WriteLine(IsInterleave("aabcc", "dbbca", "aadbbbaccc"));
             Console.ReadLine();
         }
         
         public static bool IsInterleave(string s1, string s2, string s3)
         {
-            if (s1.Length + s2.Length != s3.Length)
+            for (int i = 0; i < s1.Length; i++)
+            {
+                if (s3.Contains(s1[i]))
+                {
+                    var temp = s3.IndexOf(s1[i]);
+                    s3 = s3.Remove(temp,1);
+                }
+            }
+            if (s2 != s3)
             {
                 return false;
             }
-            var c1  = s1.OrderBy(p => p);
-            var c2 = s2.OrderBy(p => p);            
-            var c3 = s3.OrderBy(p => p);
-
-            int count = 1;
-
-            for (int i = 0; i < s3.Length; i++)
+            for (int i = 0; i < s2.Length; i++)
             {
-
-                if (!String.IsNullOrEmpty(s1))
+                if (s3.Contains(s2[i]))
                 {
-                    if (s1.Contains(s3[i]))
-                    {
-                        var position = s1.IndexOf(s3[i]);
-                        s1 = s1.Remove(position, 1);
-                        count++;
-                        continue;
-                    }
-                }
-
-                if (!string.IsNullOrEmpty(s2))
-                {
-                    if (s2.Contains(s3[i]))
-                    {
-                        var position = s2.IndexOf(s3[i]);
-                        s2 = s2.Remove(position, 1);
-                        count++;
-                        continue;
-                    }
+                    var temp = s3.IndexOf(s2[i]);
+                    s3 = s3.Remove(temp, 1);
                 }
             }
-
-            if (!String.IsNullOrEmpty(s1) || !string.IsNullOrEmpty(s2))
-                return false;
-            return count == s3.Length;
+            return s3.Length == 0;
         }
 
     }

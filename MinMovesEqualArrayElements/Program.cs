@@ -19,8 +19,6 @@ namespace MinMovesEqualArrayElements
             Console.WriteLine(MinMoves2(ints));
             Console.ReadLine();
         }
-
-
         public static int MinMoves2(int[] nums)
         {
             if (nums.Distinct().Count() == 1)
