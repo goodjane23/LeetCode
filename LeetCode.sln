@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeLinkedList", "Pal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicateFileInSystem", "FindDuplicateFileInSystem\FindDuplicateFileInSystem.csproj", "{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumLengthofRepeatedSubarray", "MaximumLengthofRepeatedSubarray\MaximumLengthofRepeatedSubarray.csproj", "{330B58AE-15D2-4175-96A3-6309DE8EBF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbersAfterQueries", "SumEvenNumbersAfterQueries\SumEvenNumbersAfterQueries.csproj", "{1C849479-0AE2-487B-A6E7-C91BC8D5827C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330B58AE-15D2-4175-96A3-6309DE8EBF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330B58AE-15D2-4175-96A3-6309DE8EBF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330B58AE-15D2-4175-96A3-6309DE8EBF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330B58AE-15D2-4175-96A3-6309DE8EBF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C849479-0AE2-487B-A6E7-C91BC8D5827C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C849479-0AE2-487B-A6E7-C91BC8D5827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C849479-0AE2-487B-A6E7-C91BC8D5827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C849479-0AE2-487B-A6E7-C91BC8D5827C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
