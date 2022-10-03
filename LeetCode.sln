@@ -39,7 +39,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicateFileInSystem",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumLengthofRepeatedSubarray", "MaximumLengthofRepeatedSubarray\MaximumLengthofRepeatedSubarray.csproj", "{330B58AE-15D2-4175-96A3-6309DE8EBF69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbersAfterQueries", "SumEvenNumbersAfterQueries\SumEvenNumbersAfterQueries.csproj", "{1C849479-0AE2-487B-A6E7-C91BC8D5827C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumEvenNumbersAfterQueries", "SumEvenNumbersAfterQueries\SumEvenNumbersAfterQueries.csproj", "{1C849479-0AE2-487B-A6E7-C91BC8D5827C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinTimeMakeRopeColorful", "MinTimeMakeRopeColorful\MinTimeMakeRopeColorful.csproj", "{415E7EF0-5207-4F97-8020-2952E54AF7A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{1C849479-0AE2-487B-A6E7-C91BC8D5827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C849479-0AE2-487B-A6E7-C91BC8D5827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C849479-0AE2-487B-A6E7-C91BC8D5827C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415E7EF0-5207-4F97-8020-2952E54AF7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415E7EF0-5207-4F97-8020-2952E54AF7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415E7EF0-5207-4F97-8020-2952E54AF7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415E7EF0-5207-4F97-8020-2952E54AF7A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
