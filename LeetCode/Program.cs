@@ -10,6 +10,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This program include solution for some problems on Leetcode(https://leetcode.com/)");
+            Console.ReadLine();
         }
     }
 }

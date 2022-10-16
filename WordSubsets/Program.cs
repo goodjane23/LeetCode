@@ -10,28 +10,27 @@ namespace WordSubsets
     {
         static void Main(string[] args)
         {
-            string[] words1 = new string[] { "amazon", "apple", "facebook", "google", "leetcode" };
-            string[] words2 = new string[] { "lo", "eo" };
-            WordSubsets(words1, words2);
+            string[] words1 = { "amazon", "apple", "facebook", "google", "leetcode" };
+            string[] words2 = { "lo", "eo" };
+            var result = WordSubsets(words1, words2);
+            
+            foreach (var res in result)
+            {
+                Console.WriteLine(res);
+            }
+            
+            Console.ReadLine();
         }
 
-        public static IList<string> WordSubsets(string[] words1, string[] words2)
+        private static IList<string> WordSubsets(string[] words1, string[] words2)
         {
-            int count = 0;
             IList<string> list = new List<string>();
-
-            foreach (string word in words1)
+            var resultSub = words2[0];
+            for (int i = 1; i < words2.Length-1; i++)
             {
-                for (int i = 0; i < words2.Count(); i++)
-                {
-                    if (word.Contains(words2[i]))
-                        count++;
-                }
-                if (count == words2.Count())
-                    list.Add(word);
-                count = 0;
+              //  resultSub = resultSub.Union(resultSub, words2[i]);
             }
-
+            
             return list;
         }
     }

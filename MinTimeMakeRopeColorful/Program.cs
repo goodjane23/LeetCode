@@ -18,30 +18,24 @@ internal class Program
     public static int MinCost(string colors, int[] neededTime)
     {
         int result = 0;
-        int indexRepeat;
-        string vasp = colors;
-     
-        while (!IsCheckRope(colors, out indexRepeat))
+        var currTime = neededTime[0];
+        var currMaxTime = neededTime[0];
+        for (int i = 1; i < colors.Length; i++)
         {
-            result += neededTime[indexRepeat];
-            vasp = colors.Remove(indexRepeat, 1);
+            if (colors[i] != colors[i-1])
+            {
+                result += currTime - currMaxTime;
+                currTime = neededTime[i];
+                currMaxTime = neededTime[i];
+                continue;
+            }
+
+            currTime += neededTime[i];
+            currMaxTime = Math.Max(neededTime[i], currMaxTime);
         }
-      
+        result += currTime - currMaxTime;
         return result;
     }
 
-    public static bool IsCheckRope(string colors, out int indexRepeat)
-    {
-        indexRepeat = 0;
-        for (int i = 0; i < colors.Length-1; i++)
-        {
-            if (colors[i] == colors[i + 1])
-            {
-                indexRepeat = i;
-                return false;
-            }
-                
-        }
-        return true;
-    }
+  
 }
