@@ -11,8 +11,18 @@ namespace Stydy
         static void Main(string[] args)
         {
             int[] ints = new int[] { 1, 2, 0 };
-            FirstMissingPositive(ints);
+         //   FirstMissingPositive(ints);
+            WriteWithout();
 
+        }
+
+        private static void WriteWithout()
+        {
+            Console.WriteLine("╔╦╦╦╦╦╦╦╦╦══════╦╦╦═╦╦═══╗");
+            Console.WriteLine("║║║║╠╬╣╠╣╚╦═╦╗╔╦╣╠╣║╠╬══╗║");
+            Console.WriteLine("║║║║║╠╗╔╣║║║║╚╝╠╗╔╣╩║║║║║║");
+            Console.WriteLine("║╚══╩╝╚═╩╩╩═╩══╝╚═╩╩╩╩╩╩╝║");
+            Console.WriteLine("╚════════════════════════╝");
         }
 
         public static int[] RunningSum(int[] nums)
