@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseVowelsString", "Reve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum69", "Maximum69\Maximum69.csproj", "{F81841C2-0229-441D-A568-AA2B52669090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveAdjacentDuplicates", "RemoveAdjacentDuplicates\RemoveAdjacentDuplicates.csproj", "{FE487B78-44F9-4ED9-BB41-27F7A6CC4A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesSortArray", "RemoveDuplicatesSortArray\RemoveDuplicatesSortArray.csproj", "{5FB10ECF-485E-496D-AA52-987599998DE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{F81841C2-0229-441D-A568-AA2B52669090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F81841C2-0229-441D-A568-AA2B52669090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F81841C2-0229-441D-A568-AA2B52669090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE487B78-44F9-4ED9-BB41-27F7A6CC4A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE487B78-44F9-4ED9-BB41-27F7A6CC4A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE487B78-44F9-4ED9-BB41-27F7A6CC4A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE487B78-44F9-4ED9-BB41-27F7A6CC4A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB10ECF-485E-496D-AA52-987599998DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB10ECF-485E-496D-AA52-987599998DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB10ECF-485E-496D-AA52-987599998DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB10ECF-485E-496D-AA52-987599998DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
