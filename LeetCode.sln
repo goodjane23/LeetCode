@@ -41,25 +41,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumLengthofRepeatedSuba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumEvenNumbersAfterQueries", "SumEvenNumbersAfterQueries\SumEvenNumbersAfterQueries.csproj", "{1C849479-0AE2-487B-A6E7-C91BC8D5827C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinTimeMakeRopeColorful", "MinTimeMakeRopeColorful\MinTimeMakeRopeColorful.csproj", "{415E7EF0-5207-4F97-8020-2952E54AF7A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinTimeMakeRopeColorful", "MinTimeMakeRopeColorful\MinTimeMakeRopeColorful.csproj", "{415E7EF0-5207-4F97-8020-2952E54AF7A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstBadVersion", "FirstBadVersion\FirstBadVersion.csproj", "{7F53DFF7-03CC-40E6-BF19-726504B92EAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.csproj", "{43219485-5C3C-4F84-BAF6-0CF4683AEADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.csproj", "{43219485-5C3C-4F84-BAF6-0CF4683AEADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopKFrequentWords", "TopKFrequentWords\TopKFrequentWords.csproj", "{AF91AAD0-A555-4F87-876B-B4FDE9A82C83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopKFrequentWords", "TopKFrequentWords\TopKFrequentWords.csproj", "{AF91AAD0-A555-4F87-876B-B4FDE9A82C83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckTwoStringEquiv", "CheckTwoStringEquiv\CheckTwoStringEquiv.csproj", "{176C359D-4551-4CD9-818B-FB892974F984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckTwoStringEquiv", "CheckTwoStringEquiv\CheckTwoStringEquiv.csproj", "{176C359D-4551-4CD9-818B-FB892974F984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseVowelsString", "ReverseVowelsString\ReverseVowelsString.csproj", "{2978CBF9-EECA-4A0A-95EE-FB375FFA0BD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseVowelsString", "ReverseVowelsString\ReverseVowelsString.csproj", "{2978CBF9-EECA-4A0A-95EE-FB375FFA0BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum69", "Maximum69\Maximum69.csproj", "{F81841C2-0229-441D-A568-AA2B52669090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum69", "Maximum69\Maximum69.csproj", "{F81841C2-0229-441D-A568-AA2B52669090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveAdjacentDuplicates", "RemoveAdjacentDuplicates\RemoveAdjacentDuplicates.csproj", "{FE487B78-44F9-4ED9-BB41-27F7A6CC4A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveAdjacentDuplicates", "RemoveAdjacentDuplicates\RemoveAdjacentDuplicates.csproj", "{FE487B78-44F9-4ED9-BB41-27F7A6CC4A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesSortArray", "RemoveDuplicatesSortArray\RemoveDuplicatesSortArray.csproj", "{5FB10ECF-485E-496D-AA52-987599998DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesSortArray", "RemoveDuplicatesSortArray\RemoveDuplicatesSortArray.csproj", "{5FB10ECF-485E-496D-AA52-987599998DE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majority Element", "Majority Element\Majority Element.csproj", "{E51E631C-7CD8-4465-900B-3EE79C7DB79B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Majority Element", "Majority Element\Majority Element.csproj", "{E51E631C-7CD8-4465-900B-3EE79C7DB79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveLetterToEqualizeFrequency", "RemoveLetterToEqualizeFrequency\RemoveLetterToEqualizeFrequency.csproj", "{22B7C72B-7990-42E2-BF01-DC566B78B340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{E51E631C-7CD8-4465-900B-3EE79C7DB79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E51E631C-7CD8-4465-900B-3EE79C7DB79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E51E631C-7CD8-4465-900B-3EE79C7DB79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B7C72B-7990-42E2-BF01-DC566B78B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B7C72B-7990-42E2-BF01-DC566B78B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B7C72B-7990-42E2-BF01-DC566B78B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B7C72B-7990-42E2-BF01-DC566B78B340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

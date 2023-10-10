@@ -8,9 +8,9 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var res = ArrayStringsAreEqual(new[] { "test" }, new[] { "test" });
+        Console.WriteLine($"{res}");
     }
-    
     
     private static bool ArrayStringsAreEqual(string[] word1, string[] word2)
     {
