@@ -14,7 +14,7 @@ class Program
 
     public static string RemoveDuplicates(string s)
     {
-      
+      return s;
     }
 
 }

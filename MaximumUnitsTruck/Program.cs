@@ -28,7 +28,6 @@ namespace MaximumUnitsTruck
         }
         public static int MaximumUnits(int[][] boxTypes, int truckSize)
         {
-            int result = 0;
             int max = 0;
             int indexMax;
             for (int i = 0; i < boxTypes.Length; i++)
@@ -49,7 +48,6 @@ namespace MaximumUnitsTruck
 
         public static void FindMax()
         {
-            int max = 0;
             
         }
     }
