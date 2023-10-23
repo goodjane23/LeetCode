@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackspaceStringCompare", "BackspaceStringCompare\BackspaceStringCompare.csproj", "{51928EFA-C7A9-46A1-AA90-74A08F1A9D70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberofGoodPairs", "NumberofGoodPairs\NumberofGoodPairs.csproj", "{E56B191F-DF89-4AF6-A925-1EBD2C69F125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberofGoodPairs", "NumberofGoodPairs\NumberofGoodPairs.csproj", "{E56B191F-DF89-4AF6-A925-1EBD2C69F125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerofFour", "PowerofFour\PowerofFour.csproj", "{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{E56B191F-DF89-4AF6-A925-1EBD2C69F125}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56B191F-DF89-4AF6-A925-1EBD2C69F125}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56B191F-DF89-4AF6-A925-1EBD2C69F125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
