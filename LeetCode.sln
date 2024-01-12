@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackspaceStringCompare", "B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberofGoodPairs", "NumberofGoodPairs\NumberofGoodPairs.csproj", "{E56B191F-DF89-4AF6-A925-1EBD2C69F125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerofFour", "PowerofFour\PowerofFour.csproj", "{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerofFour", "PowerofFour\PowerofFour.csproj", "{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetermineifStringHalvesAlike", "DetermineifStringHalvesAlike\DetermineifStringHalvesAlike.csproj", "{7236495D-8CC5-4B98-B6A2-527D72DB4270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDF35ED1-58F5-4CC7-9244-8D83CC6C169F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7236495D-8CC5-4B98-B6A2-527D72DB4270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7236495D-8CC5-4B98-B6A2-527D72DB4270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7236495D-8CC5-4B98-B6A2-527D72DB4270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7236495D-8CC5-4B98-B6A2-527D72DB4270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
