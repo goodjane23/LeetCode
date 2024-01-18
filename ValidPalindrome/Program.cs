@@ -1,9 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Text;
-using Microsoft.Win32.SafeHandles;
-
-class Program
+﻿class Program
 {
     public static void Main(string[] args)
     {
