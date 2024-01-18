@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
+﻿
 
 /// <summary>
 /// Given an array of strings words and an integer k, return the k most frequent strings.
