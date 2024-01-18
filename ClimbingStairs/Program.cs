@@ -25,7 +25,5 @@ internal class Program
             b += tmp;
         }
         return result;
-
-
     }
 }
