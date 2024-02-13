@@ -85,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstMissingPositive", "Fir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueCharacterString", "FirstUniqueCharacterString\FirstUniqueCharacterString.csproj", "{DDE3EA93-0F70-4061-8CBE-2BB5166B831C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindtheDifference", "FindtheDifference\FindtheDifference.csproj", "{5AA40136-0932-4246-A2E4-EAD56CC592C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindtheDifference", "FindtheDifference\FindtheDifference.csproj", "{5AA40136-0932-4246-A2E4-EAD56CC592C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFirstPalindromicStringintheArray", "FindFirstPalindromicStringintheArray\FindFirstPalindromicStringintheArray.csproj", "{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{5AA40136-0932-4246-A2E4-EAD56CC592C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AA40136-0932-4246-A2E4-EAD56CC592C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AA40136-0932-4246-A2E4-EAD56CC592C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
