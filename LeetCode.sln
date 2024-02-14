@@ -31,8 +31,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeSumQuery", "RangeSumQu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthSmallestElement", "KthSmallestElement\KthSmallestElement.csproj", "{B8410692-E99A-4289-9773-B8ACBFD955FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeLinkedList", "PalindromeLinkedList\PalindromeLinkedList.csproj", "{89EA1E85-0354-4305-BEBA-BFAE74656332}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicateFileInSystem", "FindDuplicateFileInSystem\FindDuplicateFileInSystem.csproj", "{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumLengthofRepeatedSubarray", "MaximumLengthofRepeatedSubarray\MaximumLengthofRepeatedSubarray.csproj", "{330B58AE-15D2-4175-96A3-6309DE8EBF69}"
@@ -87,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueCharacterString"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindtheDifference", "FindtheDifference\FindtheDifference.csproj", "{5AA40136-0932-4246-A2E4-EAD56CC592C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFirstPalindromicStringintheArray", "FindFirstPalindromicStringintheArray\FindFirstPalindromicStringintheArray.csproj", "{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindFirstPalindromicStringintheArray", "FindFirstPalindromicStringintheArray\FindFirstPalindromicStringintheArray.csproj", "{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{75239F19-6C9C-4A98-8055-3C7067B21CB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,10 +151,6 @@ Global
 		{B8410692-E99A-4289-9773-B8ACBFD955FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8410692-E99A-4289-9773-B8ACBFD955FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8410692-E99A-4289-9773-B8ACBFD955FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89EA1E85-0354-4305-BEBA-BFAE74656332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89EA1E85-0354-4305-BEBA-BFAE74656332}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89EA1E85-0354-4305-BEBA-BFAE74656332}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89EA1E85-0354-4305-BEBA-BFAE74656332}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E21A137-FBF2-4EAC-A4A9-20AFD723695A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -267,6 +263,10 @@ Global
 		{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6907EAC2-79E9-4477-BD6C-15A2D9CDFA7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75239F19-6C9C-4A98-8055-3C7067B21CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75239F19-6C9C-4A98-8055-3C7067B21CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75239F19-6C9C-4A98-8055-3C7067B21CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75239F19-6C9C-4A98-8055-3C7067B21CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
